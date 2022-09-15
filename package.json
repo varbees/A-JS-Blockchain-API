@@ -1,0 +1,19 @@
+{
+  "name": "jsblock",
+  "version": "1.0.0",
+  "description": "Building a Blockchain ProtoType With Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch dev -e js dev/api/expressApi.js"
+  },
+  "author": "varbees",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "sha256": "^0.2.0",
+    "uuid": "^9.0.0"
+  }
+}
